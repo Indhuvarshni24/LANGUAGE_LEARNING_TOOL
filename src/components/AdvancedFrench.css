@@ -1,0 +1,70 @@
+/* src/components/AdvancedFrench.css */
+
+.advanced-french-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.advanced-french-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.advanced-french-container p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.scenario-selection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.scenario-selection button {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #74ebd5;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+.scenario-selection button:hover {
+    background-color: #66d2c3;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.advanced-french-footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+}
+
+.advanced-french-footer a {
+    text-decoration: none;
+    color: #74ebd5;
+    margin: 0 10px;
+}
+
+.advanced-french-footer a:hover {
+    text-decoration: underline;
+}

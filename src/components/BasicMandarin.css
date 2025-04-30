@@ -1,0 +1,75 @@
+.basic-mandarin {
+    padding: 10px;
+    position: relative;
+}
+
+.practice-button {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.practice-button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.letter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.letter-card {
+    width: 100px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.letter-card:hover {
+    transform: translateY(-5px);
+    background-color: #e6f7ff;
+}
+
+.letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pronunciation {
+    font-size: 18px;
+    color: #777;
+    margin-top: 8px;
+}
+
+/* Styling for the speaker icon */
+.speaker-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 8px;
+    display: block;
+}
+
+.speaker-icon:hover {
+    color: #0056b3;
+}

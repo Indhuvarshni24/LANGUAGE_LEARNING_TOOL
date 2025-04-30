@@ -1,0 +1,77 @@
+.intermediate-japanese-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4caf50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.topic-content {
+    margin-top: 20px;
+}
+
+.topic-content h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.topic-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+ul {
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #444;
+}
+
+ul li strong {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

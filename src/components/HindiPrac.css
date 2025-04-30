@@ -1,0 +1,103 @@
+/* HindiPrac.css */
+
+.hindi-practice {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+
+.draggable-word {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    cursor: grab;
+    transition: opacity 0.3s;
+}
+
+.draggable-word:hover {
+    background-color: #e0e0e0;
+}
+
+.blank {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #333;
+}
+
+.blank.correct {
+    background-color: #d4edda;
+    border-color: #28a745;
+}
+
+.blank:hover {
+    background-color: #f8f8f8;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.final-score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result.correct {
+    color: #28a745;
+}
+
+.result.incorrect {
+    color: #dc3545;
+}
